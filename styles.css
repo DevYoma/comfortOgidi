@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.left{
+    color: white;
+    background: rgb(255, 215, 142);
+    flex: 0.5;
+    /* padding: 15em 1em; */
+    padding-top: 10em;
+    padding-left: 5em;
+}
+
+/* this targets all the child elements of the left div */
+.left > *  {
+    margin-bottom: 1.5rem;
+}
+
+.left__mainHeader{
+    font-size: 3rem;
+}
+
+span{
+    color: rgb(160, 148, 126);
+}
+
+.left__paragraph{
+    font-size: 1.4rem;
+}
+
+.left__button{
+    padding: 1em;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.right{
+    flex: 0.5;
+    background-image: url('./assets/image.jpg');
+    background-size: cover;
+}
