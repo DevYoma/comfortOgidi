@@ -19,7 +19,6 @@ body{
     color: white;
     background: rgb(255, 215, 142);
     flex: 0.5;
-    /* padding: 15em 1em; */
     padding-top: 10em;
     padding-left: 5em;
 }
@@ -27,6 +26,10 @@ body{
 /* this targets all the child elements of the left div */
 .left > *  {
     margin-bottom: 1.5rem;
+}
+
+.left__header{
+    text-transform: uppercase;
 }
 
 .left__mainHeader{
